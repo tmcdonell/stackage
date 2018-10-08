@@ -674,7 +674,6 @@ packages:
         - lens-aeson
         - lens-properties
         - linear
-        - linear-accelerate < 0 # GHC 8.4 via accelerate
         - log-domain
         - machines
         - monadic-arrays
@@ -788,11 +787,11 @@ packages:
         - ChannelT
 
     "Trevor L. McDonell <trevor.mcdonell@gmail.com> @tmcdonell":
-        - accelerate < 0 # GHC 8.4 via base-4.11.0.0
+        - accelerate
         - accelerate-bignum < 0 # GHC 8.4 via base-4.11.0.0
         - accelerate-blas < 0 # GHC 8.4 via base-4.11.0.0
         - accelerate-fft < 0 # GHC 8.4 via base-4.11.0.0
-        - accelerate-io < 0 # GHC 8.4 via base-4.11.0.0
+        - accelerate-io
         - accelerate-llvm < 0 # GHC 8.4 via base-4.11.0.0
         - accelerate-llvm-native < 0 # GHC 8.4 via base-4.11.0.0
         - accelerate-llvm-ptx < 0 # GHC 8.4 via base-4.11.0.0
@@ -805,11 +804,12 @@ packages:
         - gloss-algorithms
         - gloss-raster
         - gloss-examples
-        - gloss-accelerate < 0 # GHC 8.4 via base-4.11.0.0
-        - gloss-raster-accelerate < 0 # GHC 8.4 via base-4.11.0.0
-        - colour-accelerate < 0 # GHC 8.4 via base-4.11.0.0
-        - lens-accelerate < 0 # GHC 8.4 via base-4.11.0.0
-        - mwc-random-accelerate < 0 # GHC 8.4 via accelerate
+        - gloss-accelerate
+        - gloss-raster-accelerate
+        - colour-accelerate
+        - lens-accelerate
+        - linear-accelerate
+        - mwc-random-accelerate
         - cuda
         - cufft
         - cublas
